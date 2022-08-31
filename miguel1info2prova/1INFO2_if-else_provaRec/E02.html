@@ -1,0 +1,23 @@
+<script>
+    //PROBLEMA: Resultado do Big Brother Dev
+    //Peça para o usuário informar a nota que o aluno obteve no segundo trimestre e também informar a nota que o aluno obteve no terceiro trimestre.
+    //Se a nota do terceiro trimestre for maior que a nota do segundo trimestre, calcule quanto vale 30% (30/100) dessa nota e apresente em tela, informando que este será o adicional que o aluno que ajudou receberá a mais no terceiro trimestre.
+    //Contudo, se a nota do terceiro trimestre for menor que a do segundo trimestre, informe que o aluno que ajudou não receberá adicional na nota.
+
+    //ENTRADA
+    const NotasegundoTrimestre = Number(prompt("Informe a nota do segundo trimestre."));
+    const NotaterceiroTrimestre = Number(prompt("Informe a nota do terceiro trimestre."));
+
+
+    //PROCESSAMENTO
+    adiconal = 0.3 * NotaterceiroTrimestre
+    if (NotaterceiroTrimestre >= NotasegundoTrimestre )  {
+        alert(`recebera - ${adiconal.toFixed(2)} de adional na nota do terceiro trimestre`);
+    } else {
+        alert("não recebera um adicional.");
+    } 
+
+
+    //SAÍDA
+
+</script>
